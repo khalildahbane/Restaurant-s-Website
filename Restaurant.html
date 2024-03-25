@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="markup.css"
+    <link rel="stylesheet" href="markup.css">
     <title>Restaurant Website</title>
 </head>
 <body>
@@ -11,41 +11,22 @@
     <form>
         <div>        
             <label for="text">user name</label>
-            <input id="text" type="text" placeholder="your name" required name="user">
+            <input id="text" type="text" placeholder="your name">
         </div>
         <div>
             <label for="password">password</label>
-            <input id="password" type="password" placeholder="password" required name="password">
+            <input id="password" type="password" placeholder="password">
         </div>
         <input type="submit" value="login">
         <div>
-            <input type="file" >
-        </div>
-        <fieldset class="checkboxgroup">
-            <p>some label</p>
-            <label><input type="checkbox"> checkbox 1</label>
-            <label><input type="checkbox"> checkbox 2</label>
-            <label><input type="checkbox"> checkbox 3</label>
-            <label><input type="checkbox"> checkbox 4</label>
-        </fieldset>
-        
-        <div id="checkboxes">
-            <label>some label</label>
-            <ul>
-              <li><input type="checkbox"> checkbox 1</li>
-              <li><input type="checkbox"> checkbox 2</li>
-              <li><input type="checkbox"> checkbox 3</li>
-              <li><input type="checkbox"> checkbox 4</li>
-            </ul>
-          </div>
-          <dl id="checkboxes">
-            <dt>same label or term</dt>
-            <dd><input type="checkbox" id="chk1" /><label for="chk1">checkbox 1</label></dd>
-            <dd><input type="checkbox" id="chk2" /><label for="chk2">checkbox 2</label></dd>
-            <dd><input type="checkbox" id="chk3" /><label for="chk3">checkbox 3</label></dd>
-            <dd><input type="checkbox" id="chk4" /><label for="chk4">checkbox 4</label></dd>
-      </dl>
-            
+            <input type="file">
+            <label for="food">your favavorit food</label>
+            <select name="input" id="food"> 
+            <option value="food">lamp</option>
+            <option value="food">beaf</option>
+            <option value="food">tortia</option>
+            <input type="submit">
+            </select>
     </form>
 </body>
 </html>
