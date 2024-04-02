@@ -1,0 +1,11 @@
+#hero-section {
+    background: #b6890f;
+    margin-top: 70px;
+    margin-bottom: auto;
+  }
+
+.visual {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
