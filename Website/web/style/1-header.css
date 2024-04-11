@@ -1,11 +1,14 @@
-#hero-section {
-    background: #b6890f;
-    margin-top: 70px;
-    margin-bottom: auto;
-  }
-
-.visual {
+.visual-img{
+    position: relative;
+}
+#hero-section .text .primary{
+    position: absolute;
+    top: 0;
+    margin-top: 0 20px;
+}
+.visual-img {
+    background-repeat: no-repeat; 
+    background-image: url("https://images.creativemarket.com/0.1.0/ps/7353024/1820/965/m1/fpnw/wm1/ahp0l9ecx0vfwsdo1rwxcdtynfyzn4gweomwnblntp5glupfrmnapoab88tzxyjd-.jpg?1574572829&s=b8ffc3e573cf00451539ee4b954ba3c0");
     background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
 }
