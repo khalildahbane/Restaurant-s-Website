@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .title-text{
     font-size: 40px;
     text-align: center;
@@ -146,6 +142,7 @@ body{
 /* End of header*/
 /*==========About Section============*/
 #about{
+    background-color: rgb(54, 54, 54);
     padding: 40px;
 }
 
@@ -256,8 +253,8 @@ body{
 /*==========Social Icons====*/
 
 #social-icons{
- height: 150px;
-   background:#fff;
+    height: 150px;
+   background:#272222e1;
     text-align: center;
    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%);*/
     padding: 50px 0 50px 0;
